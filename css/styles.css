@@ -4,6 +4,7 @@
 --main-color: #434455;
 --secondary-color: #2E2F42;
 --hover-color: #404BBF;
+--soc-icon-bcg: #4D5AE5;
 --customers-color: #8E8F99;
 }
 
@@ -334,7 +335,7 @@ img {
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: #4D5AE5;
+    background-color: var(--soc-icon-bcg);
     border-radius: 50%;
 }
 
@@ -470,13 +471,17 @@ gap: 16px;
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: #4D5AE5;
+    background-color: var(--soc-icon-bcg);
     border-radius: 50%;
 }
 
 .footer-soc-link:hover,
 .footer-soc-link:focus {
     background-color: #31D0AA;
+}
+
+.footer-soc-icon {
+    fill: var(--bcg-light);
 }
 
 /* -----------------PORTFOLIO---------------- */
