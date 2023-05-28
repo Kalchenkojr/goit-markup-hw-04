@@ -283,9 +283,12 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
+    
 }
 
 .team-item {
+    /* display: block; */
+    width: calc((100% - 72px) / 4);
     background-color: var(--main-bcg-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -302,7 +305,7 @@ img {
 }
 
 .worker {
-    padding: 32px 16px 8px 16px;
+    padding: 32px 16px;
 }
 
 .worker-name {
@@ -326,7 +329,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin: 0 16px 32px 16px;
+    margin-top: 8px;
 }
 
 .team-soc-link {
@@ -504,8 +507,15 @@ gap: 16px;
     row-gap: 48px;
 }
 
-.portfolio-item {
-    box-sizing: border-box;
+.portfolio-link {
+    display: block;
+
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+    border: 1px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-border {
@@ -553,10 +563,4 @@ gap: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-color);
-}
-
-.portfolio-item:hover,
-.portfolio-item:focus {
-    border: 1px solid #F4F4FD;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
