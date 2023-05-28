@@ -507,9 +507,13 @@ gap: 16px;
     row-gap: 48px;
 }
 
+.portfolio-item {
+    width: 360px;
+    height: 420px;
+}
+
 .portfolio-link {
     display: block;
-
 }
 
 .portfolio-link:hover,
@@ -521,8 +525,7 @@ gap: 16px;
 .portfolio-border {
     border: 1px solid #E7E9FC;
     border-top: none;
-    width: 360px;
-    padding: 32px 16px
+    padding: 32px 16px;
 }
 
 .portfolio-filter-btn {
